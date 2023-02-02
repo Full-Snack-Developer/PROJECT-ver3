@@ -1,0 +1,486 @@
+.header_logo img{
+width: 18px;
+
+}
+.header_logo{
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+
+.header_items li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.header_items{
+    
+}
+.header_all{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(var(--white));
+    border-bottom: 1px solid #f5f5f5;
+    background-color: white;
+}
+
+.header_items li{
+    list-style: none;
+}
+.header_top{
+    background-color: #f5f5f5;
+    height: 32px;
+}
+.header_nav a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nike_logo img{
+    width: 50px;
+    margin-left:35px;
+}
+.header_bot_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+   
+}
+.header_bot_left img{
+    width: 25px;
+    height: 25px;
+    
+   
+}
+.header_bot_left input{
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    width: 150px;
+}
+.header_bot{
+    padding-top: 10px;
+   
+    
+}
+.header_noti{
+   margin-top: 90px;
+    text-align: center;
+    background-color: #f5f5f5;
+    
+}
+.header_noti p{
+    font-size: 12px;
+    padding-top: 2px;
+}
+.nav_items a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+} 
+.nav_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.men_items{
+    padding-top: 24px;
+    margin-top: 60px;
+    
+    
+}
+.men_items h3{
+    margin-left: 38px;
+}
+
+.header_text{
+    text-align: center;
+    padding-top: 32px;
+}
+.header_text h1{
+    font-weight: bold;
+}
+
+
+.nike_tennis {
+margin-top: 80px;
+height: 52px;
+margin-bottom: 10px;
+}
+.nike_tennis h3{
+    margin-left: 38px;
+}
+.arrow{
+   
+    font-size: 24px;
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.shop{
+margin-right: 10px;
+}
+.slider-button{
+    background-color: #edecec;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    width: 20%;
+    height: 45px;
+    transition: 0.4px;
+}
+.slider-button:hover{
+background-color: rgb(197, 196, 196);
+}
+
+.slider-main{
+    width: 320%;
+}
+.item{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+.slider-wrap{
+    overflow: hidden;
+}
+
+.latest{
+    margin-top: 100px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+
+.phantomGX{
+    text-align: center;
+    margin-top: 50px;
+}
+.phantomGX :nth-child(2){
+font-size: 46px;
+font-weight: 500px;
+}
+.phantomGX :nth-child(3){
+    font-size: 46px;
+    font-weight: 500px;
+}
+.shop-black-btn{
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    font-size: 16px;
+    padding: 6px 20px;
+    line-height: 24px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.shop-black-btn:hover{
+    background-color: #555;
+}
+.gear-up {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gear-up :nth-child(1){
+    margin-left: 36px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+.gear-up :nth-child(4){
+    font-size: 46px;
+    font-weight: 500px;
+}
+.gear-up :nth-child(5){
+    font-size: 46px;
+    font-weight: 500px;
+}
+.more-nike{
+    padding-top: 100px;
+}
+.more-nike-content{
+    padding-top: 24px;
+}
+.all-items{
+    margin-top: 100px;
+
+}
+.all-items-content{
+    margin-left: 120px;
+}
+.all-items-content ul li{
+    list-style: none;
+   
+}
+.all-items-content li a{
+    text-decoration: none;
+    color: #555;
+    
+    
+}
+.all-items-content ul{
+    padding-left: 0px;
+    margin-top: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.all-items-ul li{
+    margin-bottom: 12px;
+}
+
+.item-link:hover + .item-link-hide{
+    display: block;
+    color: #555;
+
+}
+
+
+
+.footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+.footer-content{
+    padding-top: 32px;
+    
+}
+.fotter-left{
+    margin-left: 50px;
+}
+.fotter-left-items div{
+    margin-top: 12px;
+    font-size: 14px;
+}
+#myBtn {
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 65px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  .fotter-left-items a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+.more-nike h3{
+    margin-left: 36px;
+}
+.fotter-left-second-items{
+font-size: 12px;
+}
+.fotter-left-second-items :nth-child(1){
+    font-size: 14px;
+}
+.fotter-left-third-items{
+    font-size: 12px;
+    
+}
+.fotter-left-second-items div{
+    margin-top: 12px;
+}
+
+.fotter-left-third-items :nth-child(1){
+    font-size: 14px;
+}
+.fotter-left-third-items div{
+    margin-top: 12px;
+}
+.footer_nav ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.footer_nav ul li a{
+    text-decoration: none;
+    color: #7e7e7e;
+    font-size: 12px;
+}
+.footer-bot-left{
+    margin-left: 32px;
+   
+}
+.footer-bot-left :nth-child(2){
+    margin-left: 12px;
+    font-size: 12px;
+}
+.footer-bot-left :nth-child(3){
+    margin-left: 12px;
+    font-size: 12px;
+    color: #7e7e7e;
+}
+.footer-bot{
+    margin-top: 100px;
+}
+
+
+.form-login{
+    width: 20%;
+   margin-top: 32px;
+}
+
+.login-nike-logo img{
+    width: 18%;
+}
+.login-text{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.form-check-label{
+    font-size: 12px;
+    width: fit-content;
+}
+
+.featured_img img{
+    margin-left: 30px;
+}
+
+@media screen and (max-width:768px){
+.header_top{
+    display: none;
+}
+.header_nav{
+    display: none;
+}
+.slider-wrap{
+    overflow: hidden;
+}
+.slider-main{
+    width: 1020%;
+}
+.item{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+video{
+    width: 100%;
+    height: auto    ;
+}
+.phantomGX{
+    text-align: left;
+}
+.latest{
+    margin-left: 12px;
+}
+.men_items h3{
+margin-left: 12px;
+}
+.nike_tennis h3{
+    margin-left: 12px;
+}
+.gear-up :nth-child(3){
+    text-align: left;
+}
+.gear-up :nth-child(4){
+    text-align: left;
+}
+.gear-up :nth-child(5){
+    text-align: left;
+}
+.gear-up :nth-child(6){
+    text-align: left;
+}
+.gear-up :nth-child(7){
+    text-align: left;
+}
+.form-login{
+    width: 90%;
+}
+
+
+
+
+.gear-up{
+    text-align: left;
+}
+.slider-main{
+    width: 3000%;
+}
+.more-nike h3{
+    margin-left: 12px;
+}
+.more-nike img{
+    margin-top: 24px;
+}
+.all-items-content li a{
+    display: none;
+}
+.all-items-content{
+    margin-left: 12px;
+}
+.footer-bot{
+    margin-top: 24px !important;
+}
+.footer_nav ul li{
+    margin-top: 12px;
+}
+.slider-button{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+}
+@media only screen and (max-width: 992px) {
+    .slider-main{
+        width: 1020%;
+    }
+    .slider-button{
+        width: 100%;
+        height: 100%;
+    }
+    video{
+        width: 100%;
+        height: auto    ;
+    }
+    .form-login{
+        width: 90%;
+    }
+    .header_top{
+        display: none;
+    }
+    .header_nav{
+        display: none;
+    }
+    .footer-bot{
+        margin-top: 24px !important;
+    }
+    .footer_nav ul li{
+        margin-top: 12px;
+    }
+}
+
+

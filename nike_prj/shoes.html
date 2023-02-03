@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Product Card/Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="shoes.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <div class="top-container">
+    <div class="top-item1">
+      <a href="home.html"><img src="https://cdn-icons-png.flaticon.com/512/732/732229.png" class="top-logo"></a>
+    </div>
+    <div class="top-item2">
+      <div class="top-text">
+        <a href="men.html" style="text-decoration: none; color: black;">
+          <p>Men</p>
+        </a>
+        <p>Women</p>
+        <p>Kids</p>
+        <p>Customise</p>
+        <p>Sale</p>
+        <p>SNKRS</p>
+      </div>
+    </div>
+    <div class="top-item3">
+      <div class="search">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828948.png" class="search-icon">
+      </div>
+      <div class="heart">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" class="heart-icon">
+      </div>
+      <div class="cart">
+        <img src="https://cdn-icons-png.flaticon.com/512/2832/2832495.png" class="cart-icon">
+      </div>
+      <div class="more">
+        <img src="https://cdn-icons-png.flaticon.com/512/2354/2354551.png" class="more-icon">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="card-wrapper">
+    <div class="row">
+
+
+      <!-- card left -->
+      <div class="product-imgs col-lg-6">
+        <div class="img-display">
+          <div class="img-showcase">
+            <img src="shoes_images/712x950_3.jpg" alt="shoe image">
+            <img src="shoes_images/712x950_4.jpg" alt="shoe image">
+            <img src="shoes_images/712_5.jpg" alt="shoe image">
+            <img src="shoes_images/712_6.jpg" alt="shoe image">
+          </div>
+        </div>
+        <div class="img-select">
+          <div class="img-item">
+            <a href="#" data-id="1">
+              <img src="shoes_images/712x950_3.jpg" alt="shoe image">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id="2">
+              <img src="shoes_images/712x950_4.jpg" alt="shoe image">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id="3">
+              <img src="shoes_images/712_5.jpg" alt="shoe image">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id="4">
+              <img src="shoes_images/712_6.jpg" alt="shoe image">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- card right -->
+      <div class="product-content col-lg-6">
+        <h2 class="product-title">NEW COLLECTION</h2>
+        <a href="#" class="product-link">visit nike store</a>
+        <div class="product-rating">
+          <i class="fas fa-star" style="color: black;"></i>
+          <i class="fas fa-star" style="color: black;"></i>
+          <i class="fas fa-star" style="color: black;"></i>
+          <i class="fas fa-star" style="color: black;"></i>
+          <i class="fas fa-star-half-alt" style="color: black;"></i>
+          <span>4.7(21)</span>
+        </div>
+
+        <div class="product-price">
+          <p class="last-price">Old Price: <span>6.000.000 VND</span></p>
+          <p class="new-price">New Price: <span>3.000.000 VND (50%)</span></p>
+        </div>
+
+        <div class="product-detail">
+          <h2>about this item: </h2>
+          <p>When the sun's beating down your back and your drive just landed in the bunker, lean into the Roshe 2, a
+            design that can help you find your peace when your round isn't going your way.</p>
+          <p>It's inherently simple and stylish, breathable and comfortable, perfect for playing in those sizzling-hot
+            months. A full mesh upper and a soft, lightweight foam midsole form a cushioned combination to help maintain
+            your internal calm, even if your game goes in the gutter.</p>
+          <ul>
+            <!-- <li>Color: <span>Black</span></li> -->
+            <li>Available: <span>in stock</span></li>
+            <li>Category: <span>Shoes</span></li>
+            <li>Shipping Area: <span>All over the world</span></li>
+            <li>Shipping Fee: <span>Free</span></li>
+          </ul>
+        </div>
+
+        <div class="purchase-info">
+          <input type="number" min="0" value="1">
+          <button type="button" class="btn">
+            Add to Cart <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button type="button" class="btn">Compare</button>
+        </div>
+
+        <!-- <div class = "social-links">
+            <p>Share At: </p>
+            <a href = "#">
+              <i class = "fab fa-facebook-f"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-twitter"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-instagram"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-whatsapp"></i>
+            </a>
+            <a href = "#">
+              <i class = "fab fa-pinterest"></i>
+            </a>
+          </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="footer container-fluid">
+    <div class="footer-content row">
+      <div class="fotter-left col-md-6 col-lg-7">
+        <div class="row">
+          <div class="fotter-left-items col-md-4">
+            <div>FIND A STORE</div>
+            <div>BECOME A MEMBER</div>
+            <a href="login.html">
+              <div>SIGN UP FOR EMAIL</div>
+            </a>
+            <div>SEND US FEEDBACK</div>
+          </div>
+          <div class="fotter-left-second-items col-md-4">
+            <div>GET HELP</div>
+            <div>Order Status</div>
+            <div>Delivery</div>
+            <div>Returns</div>
+            <div> Payment Options</div>
+            <div>Contact Us</div>
+          </div>
+          <div class="fotter-left-third-items col-md-4">
+            <div>ABOUT NIKE</div>
+            <div>News</div>
+            <div> Careers</div>
+            <div>Investors</div>
+            <div> Sustainability</div>
+          </div>
+        </div>
+      </div>
+      <div class="icon col-lg-4">
+
+      </div>
+    </div>
+    <div class="footer-bot row">
+      <div class="footer-bot-left col-lg-8 col-md-8 d-flex align-items-md-center">
+        <i class="fa-solid fa-location-dot"></i>
+        <div>Viet Nam</div>
+        <span>© 2023 Nike, Inc. All Rights Reserved</span>
+      </div>
+      <div class="footer_nav col-lg-3 col-md-3">
+        <ul class="d-flex align-items-md-center justify-content-md-between flex-sm-column flex-md-row">
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Terms of Sale</a></li>
+          <li><a href="#"> Terms of Use</a></li>
+          <li><a href="#">Nike Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
